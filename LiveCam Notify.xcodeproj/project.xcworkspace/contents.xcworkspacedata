@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Quotes.xcodeproj">
+      location = "self:/Users/brandon/Github/quotes-menubar/Quotes/LiveCam Notify.xcodeproj">
    </FileRef>
 </Workspace>

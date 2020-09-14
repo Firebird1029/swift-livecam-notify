@@ -11,16 +11,18 @@
 		CA97E16C250F0D95003BC1B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97E16B250F0D95003BC1B2 /* ViewController.swift */; };
 		CA97E16E250F0D95003BC1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA97E16D250F0D95003BC1B2 /* Assets.xcassets */; };
 		CA97E171250F0D95003BC1B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA97E16F250F0D95003BC1B2 /* Main.storyboard */; };
+		CA97E17A250F0F73003BC1B2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97E179250F0F73003BC1B2 /* QuotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA97E166250F0D95003BC1B2 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA97E166250F0D95003BC1B2 /* LiveCam Notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiveCam Notify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97E169250F0D95003BC1B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA97E16B250F0D95003BC1B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA97E16D250F0D95003BC1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA97E170250F0D95003BC1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA97E172250F0D95003BC1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA97E173250F0D95003BC1B2 /* Quotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quotes.entitlements; sourceTree = "<group>"; };
+		CA97E173250F0D95003BC1B2 /* LiveCam Notify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "LiveCam Notify.entitlements"; sourceTree = "<group>"; };
+		CA97E179250F0F73003BC1B2 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 		CA97E15D250F0D95003BC1B2 = {
 			isa = PBXGroup;
 			children = (
-				CA97E168250F0D95003BC1B2 /* Quotes */,
+				CA97E168250F0D95003BC1B2 /* LiveCam Notify */,
 				CA97E167250F0D95003BC1B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,30 +47,31 @@
 		CA97E167250F0D95003BC1B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA97E166250F0D95003BC1B2 /* Quotes.app */,
+				CA97E166250F0D95003BC1B2 /* LiveCam Notify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA97E168250F0D95003BC1B2 /* Quotes */ = {
+		CA97E168250F0D95003BC1B2 /* LiveCam Notify */ = {
 			isa = PBXGroup;
 			children = (
 				CA97E169250F0D95003BC1B2 /* AppDelegate.swift */,
+				CA97E179250F0F73003BC1B2 /* QuotesViewController.swift */,
 				CA97E16B250F0D95003BC1B2 /* ViewController.swift */,
 				CA97E16D250F0D95003BC1B2 /* Assets.xcassets */,
 				CA97E16F250F0D95003BC1B2 /* Main.storyboard */,
 				CA97E172250F0D95003BC1B2 /* Info.plist */,
-				CA97E173250F0D95003BC1B2 /* Quotes.entitlements */,
+				CA97E173250F0D95003BC1B2 /* LiveCam Notify.entitlements */,
 			);
-			path = Quotes;
+			path = "LiveCam Notify";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA97E165250F0D95003BC1B2 /* Quotes */ = {
+		CA97E165250F0D95003BC1B2 /* LiveCam Notify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA97E176250F0D95003BC1B2 /* Build configuration list for PBXNativeTarget "Quotes" */;
+			buildConfigurationList = CA97E176250F0D95003BC1B2 /* Build configuration list for PBXNativeTarget "LiveCam Notify" */;
 			buildPhases = (
 				CA97E162250F0D95003BC1B2 /* Sources */,
 				CA97E163250F0D95003BC1B2 /* Frameworks */,
@@ -78,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = Quotes;
+			name = "LiveCam Notify";
 			productName = Quotes;
-			productReference = CA97E166250F0D95003BC1B2 /* Quotes.app */;
+			productReference = CA97E166250F0D95003BC1B2 /* LiveCam Notify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA97E161250F0D95003BC1B2 /* Build configuration list for PBXProject "Quotes" */;
+			buildConfigurationList = CA97E161250F0D95003BC1B2 /* Build configuration list for PBXProject "LiveCam Notify" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA97E165250F0D95003BC1B2 /* Quotes */,
+				CA97E165250F0D95003BC1B2 /* LiveCam Notify */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA97E16C250F0D95003BC1B2 /* ViewController.swift in Sources */,
+				CA97E17A250F0F73003BC1B2 /* QuotesViewController.swift in Sources */,
 				CA97E16A250F0D95003BC1B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,12 +267,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Quotes/Quotes.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LiveCam Notify/LiveCam Notify.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Quotes/Info.plist;
+				INFOPLIST_FILE = "LiveCam Notify/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandonyee.Quotes;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandonyee.livecam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -278,12 +283,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Quotes/Quotes.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "LiveCam Notify/LiveCam Notify.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Quotes/Info.plist;
+				INFOPLIST_FILE = "LiveCam Notify/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.brandonyee.Quotes;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brandonyee.livecam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -292,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA97E161250F0D95003BC1B2 /* Build configuration list for PBXProject "Quotes" */ = {
+		CA97E161250F0D95003BC1B2 /* Build configuration list for PBXProject "LiveCam Notify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA97E174250F0D95003BC1B2 /* Debug */,
@@ -301,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA97E176250F0D95003BC1B2 /* Build configuration list for PBXNativeTarget "Quotes" */ = {
+		CA97E176250F0D95003BC1B2 /* Build configuration list for PBXNativeTarget "LiveCam Notify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA97E177250F0D95003BC1B2 /* Debug */,
